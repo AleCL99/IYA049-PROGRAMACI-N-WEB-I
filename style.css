@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-weight: normal;
+    text-align: center;
+}
+div{
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+.columnas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.columna {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.columna img {
+    width: 70%;
+    height: auto; /* Mantener la proporción de la imagen */
+    margin: 0 auto;
+}
+span {
+    font-weight: 700;
+}
+footer a {
+    color: white;
+}
